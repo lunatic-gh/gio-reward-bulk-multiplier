@@ -14,12 +14,11 @@ public class Main {
 
     /**
      * Here, you want to specific a list of id's you want to multiply.
-     * This includes a few examples, those being AR-Experience, Primogems, Mora, Both types of Fates, and all Types of Char and Weapon Upgrade Materials.
+     * This includes a few examples, those being AR-Experience, Mora, Both types of Fates, and all Types of Char and Weapon Upgrade Materials.
      * The first value is the item id you want to multiply, the second value is the value to multiply by. eg "1.5F" means "+50%"
      */
     private static final List<Multiplication> MULTIPLICATIONS = List.of(
             new Multiplication("102", 1.25F),
-            new Multiplication("201", 1.5F),
             new Multiplication("202", 1.5F),
             new Multiplication("223", 1.5F),
             new Multiplication("224", 1.5F),
