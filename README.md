@@ -19,4 +19,7 @@
   modified ``RewardData.txt``, ready to use.
 - Copy it to your server's txt directory, Start the Server, and enjoy.
 
+## List of known item id's that cause issues when used:
+- 201 (Primogem) - For some reason bulk-multiplying Primos causes the server to crash. Still trying to figure out why...
+
 ## If you have issues with this that aren't you being dumb, open an issue in this Repo.
