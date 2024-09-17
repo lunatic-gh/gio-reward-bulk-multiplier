@@ -2,6 +2,9 @@
 
 ## Version: Tested with 3.4.7. Should work with 3.2 too, but not guaranteed.
 
+## REQUIREMENTS:
+- Java 21+
+
 ### How to Use:
 
 - Download the Repository to your PC.
