@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.gradleup.shadow' version '8.3.1'
+}
+
+
+group = 'me.lunatic'
+version = '1.0'
+mainClassName = "me.lunatic.multiplier.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.univocity:univocity-parsers:2.9.1'
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": "$mainClassName"
+        )
+    }
+}
